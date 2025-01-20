@@ -1,0 +1,138 @@
+/* shared styles */
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.raleway-normal {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.margin{
+    margin: 0 140px;
+}
+
+/* navbar styles */
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.nav-1,.nav-2,.nav-3{
+    display: flex;
+}
+.nav-1{
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.nav-2{
+    gap: 32px;
+    font-size: 1.25rem;
+}
+#about{
+    color: #01ACFD;
+}
+#facilities{
+    color: rgba(5, 212, 223, 1);
+}
+#admission{
+    color: rgba(93, 88, 239, 1);
+}
+.nav-3{
+    font-size: 1.25rem;
+}
+
+#home{
+    font-weight: 700;
+    color: #FEA301;
+}
+.nav-others{
+    font-weight: 500;
+}
+.btn-weight{
+    font-weight: 600;
+}
+.btn{
+    background-color: #FEA301;
+    color: #FFFFFF;
+    padding: 10px 60.5px;
+    border-radius: 12px;
+    border: none;
+}
+
+
+/* styles for banner section */
+.banner{
+    margin: 20px 141px 60px 141px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.btn-2{
+    
+        background-color: #111111;
+        color: #FFFFFF;
+        padding: 10px 60.5px;
+        border-radius: 12px;
+        border: none;
+    
+}
+.margin-bottom{
+    margin-bottom: 24px;
+}
+.banner-h1{
+    font-size: 3.5rem;
+}
+#orange-font{
+    color: #FEA301;
+}
+#blue-font{
+    color: #01ACFD;
+}
+
+
+/* styles for standard curriculum section */
+.standard-curriculum{
+    background-image: url('/assets/bg.png');
+
+}
+.h1-standard-curriculum{
+    text-align: center;
+    font-size: 2.88rem;
+    margin-bottom: 80px;
+}
+.h1-card{
+    font-size: 1.5rem;
+}
+.align-center{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    flex: 1;
+    gap: 28px;
+    
+}
+.card{
+    text-align: center;
+    padding: 52px 59px;
+    
+}
+.bottom-margin{
+    margin-bottom: 32px;
+}
