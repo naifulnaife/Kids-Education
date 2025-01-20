@@ -110,7 +110,7 @@ section{
 
 
 /* styles for standard curriculum section */
-.standard-curriculum{
+.bg-img{
     background-image: url('/assets/bg.png');
 
 }
@@ -128,8 +128,9 @@ section{
 .cards{
     display: flex;
     flex: 1;
-    gap: 28px;
-    margin-bottom: 80px;
+    justify-content: space-between;
+    gap: 28.29px;
+    margin: 0 auto;
     
 }
 .card{
@@ -164,3 +165,61 @@ section{
 .bottom-margin{
     margin-bottom: 32px;
 }
+
+/* styles for our stories section */
+.bg-gradiant{
+    
+    background-image: linear-gradient(to top,#FFCC8C,#FFFFFF);
+}
+.h1-story{
+    text-align: center;
+    font-size: 2.88rem;
+    margin-bottom: 80px;
+    margin-top: 60px;
+}
+.story-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 80px;
+    
+    
+}
+.card>img{
+    width: 100%;
+    
+    border-radius: 16px;
+    
+ 
+}
+.card{
+    border: 1px solid white;
+}
+
+.h1-card{
+    margin-top: 58px;
+    font-size: 1.5rem;
+    /* padding-left: 38px;
+    padding-right: 100px; */
+
+}
+.p-font{
+    margin-top: 48px;
+    color: rgba(102, 102, 102, 1);
+    padding-left: 38px;
+    padding-right: 68px;
+
+}
+.align{
+    display: flex;
+    justify-content: center;
+    
+}
+.bot-margin{
+    margin-bottom: 60px;
+}
+
+
+/* styles for footer section */
+
