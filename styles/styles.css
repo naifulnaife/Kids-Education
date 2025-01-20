@@ -222,4 +222,12 @@ section{
 
 
 /* styles for footer section */
+.footer{
+    background-color:#01ACFD;
+    display: flex;
+    gap: 170px;
+    justify-content: space-between;
+    padding: 98px 140px 200px 140px;
 
+
+}
