@@ -34,6 +34,9 @@ section{
     margin-top: 20px;
 
 }
+a{
+    text-decoration: none;
+}
 .hamburger{
     display: none;
 }
@@ -51,12 +54,21 @@ section{
 }
 #about{
     color: #01ACFD;
+    font-weight: 500;
 }
 #facilities{
     color: rgba(5, 212, 223, 1);
+    font-weight: 500;
 }
 #admission{
     color: rgba(93, 88, 239, 1);
+    font-weight: 500;
+}
+.hover-btn:hover{
+    background-color: #01ACFD;
+}
+.hover-btn2:hover{
+    color:black
 }
 .nav-3{
     font-size: 1.25rem;
@@ -330,6 +342,7 @@ button{
 
 
 
+
 /* styles for footer section */
 .footer{
     
@@ -342,6 +355,14 @@ button{
 }
 .bg-color{
     background-color: #FFFFFF;
+}
+.color{
+    color: #FFFFFF;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .dis-flex{
@@ -413,10 +434,7 @@ button{
         text-align: center;
         gap:20px;
     }
-    .banner-img{
-        width: 336px;
-        height: 413px;
-    }
+    
     .font{
         font-size: 2rem;
     }
@@ -471,7 +489,8 @@ button{
         
     }
     .pic-container{
-        margin-left: -100px;
+        margin-left: -115px;
+        gap: 35px;
     }
     .btn-story-card-small{
         width: 103px;
@@ -497,6 +516,9 @@ button{
     }
     .h1-small-card{
         margin-top: -32px;
+    }
+    .card{
+        width: 200%;
     }
     .btn-2{
     
