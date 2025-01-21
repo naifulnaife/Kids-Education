@@ -558,7 +558,8 @@ button{
     .pic-container{
         margin: 0 auto;
         justify-content:center;
-        gap:8px;
+        gap:35px;
+        margin-right: 35px;
     }
     .btn-story-card-small{
         width: 103px;
