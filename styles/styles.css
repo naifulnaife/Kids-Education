@@ -141,6 +141,7 @@ section{
 .card-1{
     border: 1px solid rgba(222, 245, 255, 1);
     background-image: linear-gradient(to bottom,rgba(222, 245, 255, 1),#FFFFFF);
+    
 }
 .read-more-1{
     color: rgba(100, 200, 255, 1);
@@ -167,6 +168,9 @@ section{
 }
 
 /* styles for our stories section */
+.bott-margin{
+    margin: 0;
+}
 .bg-gradiant{
     
     background-image: linear-gradient(to top,#FFCC8C,#FFFFFF);
@@ -186,22 +190,37 @@ section{
     
     
 }
-.card>img{
+.card-story>img{
     width: 100%;
     
     border-radius: 16px;
     
  
 }
-.card{
-    border: 1px solid white;
+.bg-color{
+    background-color: #FFFFFF;
+}
+.btn-story-card{
+    font-weight: 500;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    border-radius: 48px;
+    width: 174px;
+    height: 48px;
+    margin-left: 38px;
+    margin-bottom: -28px;
+}
+.text-box{
+    margin-top: -30px;
+
 }
 
+
 .h1-card{
-    margin-top: 58px;
+
     font-size: 1.5rem;
-    /* padding-left: 38px;
-    padding-right: 100px; */
+    padding-left: 38px;
+    padding-right: 100px;
 
 }
 .p-font{
@@ -221,13 +240,21 @@ section{
 }
 
 
+
 /* styles for footer section */
 .footer{
+    
     background-color:#01ACFD;
     display: flex;
     gap: 170px;
     justify-content: space-between;
     padding: 98px 140px 200px 140px;
 
-
+}
+.dis-flex{
+    display: flex;
+    align-items: center;
+}
+.text-color{
+    color: #FFFFFF;
 }
