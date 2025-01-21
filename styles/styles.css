@@ -152,7 +152,7 @@ button{
 
 /* styles for standard curriculum section */
 .bg-img{
-    background-image: url('/assets/bg.png');
+    background-image: url('../assets/bg.png');
 
 }
 .h1-standard-curriculum{
