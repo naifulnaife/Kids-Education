@@ -296,13 +296,13 @@ button{
     grid-area: pic2;
 }
 .bg-btn-2{
-    background-color:rgba(149, 178, 38, 1) ;
+    background-color:darkorange ;
 }
 .bg-btn-3{
     background-color:cadetblue;
 }
 .bg-btn-4{
-    background-color:darkorange;
+    background-color:rgba(149, 178, 38, 1) ;
 }
 .bg-btn-5{
     background-color: rgba(164, 74, 160, 1);
