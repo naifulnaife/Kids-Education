@@ -206,16 +206,36 @@ button{
 .bottom-margin{
     margin-bottom: 32px;
 }
-.special-icon{
-    margin-top: 60px;
+.arrow-both{
+    width: 60px;
+    height: 60px;
+    background-color: #FEA301;
+    border-radius: 30px;
+    text-align: center;
+
+}
+.arrow{
+    font-size: 3rem;
+    color: #FFFFFF;
+    background-color:transparent;
+}
+.arrow-display{
     display: flex;
-    justify-content:center;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+
+.arrow-hover:hover{
+    background-color: #01ACFD;
 }
 
 /* styles for our stories section */
 .bott-margin{
     margin: 0;
 }
+
 .bot-mar{
     padding-bottom: 80px;
 }
@@ -279,10 +299,10 @@ button{
     background-color:rgba(149, 178, 38, 1) ;
 }
 .bg-btn-3{
-    background-color: rgba(96, 6, 6, 1);
+    background-color:cadetblue;
 }
 .bg-btn-4{
-    background-color: rgba(73, 85, 96, 1);
+    background-color:darkorange;
 }
 .bg-btn-5{
     background-color: rgba(164, 74, 160, 1);
@@ -417,7 +437,7 @@ button{
         display: none;
     }
     .margin2{
-        margin: 20px 60px ;
+        margin: 12px 16px;
         list-style: none;
         display: flex;
         justify-content: space-between;
@@ -441,6 +461,12 @@ button{
     .font-2{
         font-size: 0.86rem;
         font-weight: 500;
+        width: 150%;
+        margin-left: -60px;
+    }
+    .banner-h1{
+        width: 200%;
+        margin-left: -115px;
     }
     
 
@@ -482,6 +508,12 @@ button{
         font-size: 1rem;
         margin-bottom: 10px;
     }
+    .arrow-display{
+        display: none;
+    }
+    .bottom-margin{
+        margin-bottom: 20px;
+    }
 
     /* styles for our stories section */
     .pic1{
@@ -509,6 +541,7 @@ button{
         width: 173px;
         height: 179px;
         margin-bottom: 30px;
+        
     }
     .text-box{
         height: 120px;
@@ -550,9 +583,7 @@ button{
     .font-sc{
         font-size: 1.5rem;
     }
-    .font_f{
-        font-size: 1.25rem;
-    }
+    
     .mar-bot-2{
         margin-bottom: 17px;
     }
