@@ -241,7 +241,7 @@ button{
 }
 .bg-gradiant{
     
-    background-image:url('/assets/bg.png'),linear-gradient(to bottom,#FFFFFF,rgba(255, 223, 167, 1));  
+    background-image:url('../assets/bg.png'),linear-gradient(to bottom,#FFFFFF,rgba(255, 223, 167, 1));  
 }
 .padding{
     padding: 0 140px;
