@@ -34,6 +34,9 @@ section{
     margin-top: 20px;
 
 }
+.hamburger{
+    display: none;
+}
 .nav-1,.nav-2,.nav-3{
     display: flex;
 }
@@ -80,7 +83,13 @@ section{
     font-size: 1.25rem;
     font-weight: 600;
 }
+button{
+    border: none;
+}
 .line{
+    display: none;
+}
+.margin2{
     display: none;
 }
 
@@ -184,6 +193,11 @@ section{
 
 .bottom-margin{
     margin-bottom: 32px;
+}
+.special-icon{
+    margin-top: 60px;
+    display: flex;
+    justify-content:center;
 }
 
 /* styles for our stories section */
@@ -360,6 +374,7 @@ section{
 
 
 
+
 /* responsiveness for small screen by media query */
 @media screen and (max-width:576px) {
     /* navbar section*/
@@ -373,6 +388,22 @@ section{
     hr{
         border-color: #FEA301;
     }
+    .hamburger{
+        display: block;
+        width: 30px;
+    }
+    .nav-1{
+        display: none;
+    }
+    .margin2{
+        margin: 20px 60px ;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
     
 
     /* banner section */
@@ -382,12 +413,30 @@ section{
         text-align: center;
         gap:20px;
     }
+    .banner-img{
+        width: 336px;
+        height: 413px;
+    }
+    .font{
+        font-size: 2rem;
+    }
+    .font-2{
+        font-size: 0.86rem;
+        font-weight: 500;
+    }
+    
 
     /* standard curriculum section */
     .standard-small-screen{
         width: 261px;
         height: 33px;
         margin-left: -30px;
+    }
+    .font-story{
+        font-size: 1.63rem;
+    }
+    .font-h{
+        font-size: 0.57rem;
     }
     
     
@@ -449,6 +498,19 @@ section{
     .h1-small-card{
         margin-top: -32px;
     }
+    .btn-2{
+    
+        background-color: #111111;
+        color: #FFFFFF;
+        padding: 10px auto;
+        border-radius: 12px;
+        border: none;
+        width: 134px;
+        height: 30px;
+        font-size: 1rem;
+        font-weight: 700;
+           
+}
     
 
     /* footer section */
@@ -457,5 +519,24 @@ section{
         gap: 50px;
         padding: 60px 30px;
     }
+    .font-f{
+        font-size: 2.1rem;
+    }
+    .para{
+        font-size: 1rem;
+    }
+    .font-sc{
+        font-size: 1.5rem;
+    }
+    .font_f{
+        font-size: 1.25rem;
+    }
+    .mar-bot-2{
+        margin-bottom: 17px;
+    }
+    .font_l{
+        font-size: 1.36rem;
+    }
+    
     
 }
