@@ -445,14 +445,20 @@ button{
     }
     
     
-    
-
     /* banner section */
     .banner{
         flex-direction: column-reverse;
         justify-content: center;
         text-align: center;
         gap:20px;
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .banner-img{
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
     }
     
     .font{
@@ -461,59 +467,76 @@ button{
     .font-2{
         font-size: 0.89rem;
         font-weight: 500;
-        width: 150%;
-        margin-left: -60px;
+        
     }
     .banner-h1{
-        width: 200%;
-        margin-left: -115px;
+        width: 100%;
+        text-align: center;
     }
     
 
     /* standard curriculum section */
-    .standard-small-screen{
-        width: 261px;
-        height: 33px;
-        margin-left: -30px;
+    .margin {
+        margin: 0 auto;
+        padding: 10px;
     }
-    .font-story{
-        font-size: 1.63rem;
-    }
-    .font-h{
-        font-size: 0.57rem;
-    }
-    
-    
-    .h1-standard-curriculum{
-        font-size: 1.63rem;
+
+    .standard-small-screen {
+        width: 100%;
         text-align: center;
+        margin: 0 auto;
     }
-    .cards{
-        flex-direction: column; 
-        justify-content: center;
-        align-items: center;
-        
-    }
-    .card{
-        width: 357px;
-        height: 321px;
-        padding: 36px 20px;
+
+    .h1-standard-curriculum {
+        font-size: 1.5rem;
         text-align: center;
-    }
-    .card>p{
-        font-size: 0.63rem;
-        color: rgba(128, 128, 128, 1);
-    }
-    .card>h1{
-        font-size: 1rem;
-        margin-bottom: 10px;
-    }
-    .arrow-display{
-        display: none;
-    }
-    .bottom-margin{
         margin-bottom: 20px;
     }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .card img {
+        width: 30%;
+        height: auto;
+    }
+
+    .card > p {
+        width: 100%;
+        text-align: center;
+        font-size: 0.9rem;
+        color: rgba(128, 128, 128, 1);
+    }
+
+    .card > h1 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .arrow-display {
+        display: none;
+    }
+
+    .bottom-margin {
+        margin-bottom: 20px;
+    }
+
+
+
+
 
     /* styles for our stories section */
     .pic1{
@@ -521,7 +544,7 @@ button{
         
     }
     .pic-container{
-        margin-left: -115px;
+        margin-left: -160px;
         gap: 35px;
     }
     .btn-story-card-small{
