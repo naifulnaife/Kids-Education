@@ -655,8 +655,10 @@ button{
     .card-story-small{
         width: 173px;
         height: 179px;
-        margin-bottom: 30px;
-        
+        margin-bottom: 30px;  
+    }
+    .pic-all{
+        margin-bottom: 5px;
     }
     .font-p{
         font-weight: 700;
