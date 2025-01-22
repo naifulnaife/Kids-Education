@@ -419,6 +419,10 @@ button{
 /* responsiveness for small screen by media query */
 @media screen and (max-width:576px) {
     /* navbar section*/
+    .nav-icon{
+        width: 46px;
+        height: 46px;
+    }
     .hide{
         display: none;
     }
@@ -543,14 +547,13 @@ button{
     }
 
 
-
-
-
     /* styles for our stories section */
     .pic1{
         display: none;
         
     }
+    
+    
     .h1-story{
         font-size: 1.66rem;
         margin-bottom: 40px;
@@ -613,21 +616,24 @@ button{
         gap: 50px;
         padding: 60px 30px;
     }
+    .font-title{
+        font-size: 2.19rem;
+    }
     .font-f{
-        font-size: 2.1rem;
+        font-size: 1rem;
     }
     .para{
         font-size: 1rem;
     }
     .font-sc{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
     
     .mar-bot-2{
         margin-bottom: 17px;
     }
     .font_l{
-        font-size: 1.36rem;
+        font-size: 1.38rem;
     }
     
     
