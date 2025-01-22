@@ -434,11 +434,57 @@ button{
 
 /* responsiveness for small screen by media query */
 @media screen and (max-width:576px) {
-    /* navbar section*/
-    .nav-pic>img{
-        width: 46px;
-        height: 46px;
-    }
+    
+    .menu-container {
+        position: relative;
+       }
+         
+  
+     .bars {
+        cursor: pointer;
+        display: inline-block;
+        width: 30px;
+        margin-right: 10px;
+     }
+         
+      .bars span {
+             display: block;
+             height: 4px;
+             margin: 5px 0;
+             background-color: #333;
+             
+         }
+         .menu-options {
+           position:absolute;
+           list-style: none;
+           display: none;
+           background-color:white;
+           padding: 0;
+           margin-left: -21px;
+           margin-top: 10px;
+           
+       }
+   
+       .menu-options li {
+           padding-top: 5px;
+          
+       }
+   
+       .menu-options li a {
+           text-decoration: none;
+           font-weight: bold;
+           color: #333;
+         
+       }
+   
+       #menu-toggle:checked + .bars + .menu-options {
+         display: block;
+     }
+    
+    
+     
+       
+    
     .nav-icon{
         width: 46px;
         height: 46px;
@@ -454,18 +500,13 @@ button{
         border-color: #FEA301;
         margin-top: -22px;
     }
-    .hamburger{
-        display: block;
-        width: 30px;
-        height: 30px;
-    }
     .nav-1{
         display: none;
     }
     .margin2{
         margin-top: 12px;
-        margin-right: 10px;
-        margin-left: 10px;
+        margin-right: 17px;
+        margin-left: 17px;
         list-style: none;
         display: flex;
         justify-content: space-between;
