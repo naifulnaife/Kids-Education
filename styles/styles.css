@@ -338,7 +338,7 @@ button{
     "pic1   pic2    pic3"
     "pic1   pic4    pic5"
     ;
-    justify-content: space-between;
+    justify-content: center;
     gap: 18px;
     margin-bottom: 50px;
 }
@@ -496,8 +496,10 @@ button{
     .font-2{
         width: 100%;
         font-size: 0.89rem;
-        font-weight: 500;
-        
+        font-weight: 500;  
+    }
+    .font-2>br{
+        display: none;
     }
     .banner-h1{
         width: 100%;
@@ -660,6 +662,9 @@ button{
     }
     .para{
         font-size: 1rem;
+    }
+    .para>br{
+        display: none;
     }
     .font-sc{
         font-size: 1.25rem;
